@@ -1,6 +1,15 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 
+
+.pgn__hyperlink.logo-small {
+width: 170px;
+}
+
 img.logo {
   width: 171px !important;
+}
+
+img.logo-small {
+  width: 100px !important;
 }
